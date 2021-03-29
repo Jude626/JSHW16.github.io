@@ -22,6 +22,11 @@ handleInputChange = event => {
     });
     let userSearch = event.target.value;
     const filteredList = this.props.employees.filter((item) => {
-        let values =
-    })
+        let values = item.name.title + item.name.first + item.name.last + item.gender + item.dob.age + item.email + item.cell;
+        return values.indexOf(userSearch) !== -1
+    });
+    this.setState({
+        filteredEmployees: filteredList
+    });
 }
+

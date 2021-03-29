@@ -1,5 +1,7 @@
 import React from 'react';
 import axios from 'axios';
+import SiteHead from './components/SiteHead';
+import Navbar from './components/Navbar';
 
 class App extends React.Component {
     state = {

@@ -43,6 +43,8 @@ render() {
                     placeholder="Search Employee"
                 />
             </form>
+            {this.state.filteredEmployees.length > 0 &&
+            <ListHeader employeeList={this.state.filteredEmployees} />}
         </div>
-    )
-}
+    );
+};

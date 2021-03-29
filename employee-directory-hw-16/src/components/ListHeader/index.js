@@ -31,16 +31,22 @@ class ListHeader extends React.Component {
             sortEmployees = this.props.employeeList.sort((a,b) => {
                 var nameA = a.name.last.toLowerCase(), nameB = b.name.last.toLowerCase();
                 if(nameA < nameB)
-                return -1
+                    return -1
                 if (nameA > nameB)
-                return 1
-            return 0
+                     return 1
+                return 0
             })
         } else {
             sortEmployees = this.props.employeeList.sort((a,b) => {
-                var nameA
+                var nameA = a.name.last.toLowerCase(), nameB = b.name.last.toLowerCase();
+                if (nameA > nameB)
+                    return -1
+                if (nameA < nameB)
+                    return 1
+                return 0
             })
         }
+        this.setState
     }
 
 

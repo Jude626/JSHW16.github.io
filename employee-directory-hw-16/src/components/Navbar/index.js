@@ -7,5 +7,12 @@ class Navbar extends React.Component {
         filteredEmployees: []
     };
 
-    componentDidMount()
+    componentDidMount() {
+        if (this.state.filteredEmployees.length < 1) {
+            this.setState({
+                filteredEmployees: this.props.employees
+            })
+        }
+    }
 }
+

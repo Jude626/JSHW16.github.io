@@ -7,6 +7,7 @@ function SiteHead() {
                 Employee Directory
             </div>
         </div>
-        
-    )
+    );
 }
+
+export default SiteHead;

@@ -1,0 +1,12 @@
+.header {
+    display: grid;
+    grid-template-columns: 25% 25% 5% 5% 20% 20%;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.name {
+    cursor: pointer;
+}

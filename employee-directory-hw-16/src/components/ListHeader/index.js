@@ -37,7 +37,9 @@ class ListHeader extends React.Component {
             return 0
             })
         } else {
-            
+            sortEmployees = this.props.employeeList.sort((a,b) => {
+                var nameA
+            })
         }
     }
 

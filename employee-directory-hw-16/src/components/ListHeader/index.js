@@ -79,7 +79,7 @@ class ListHeader extends React.Component {
 
                   ))}
             </div>
-        )
+        );
     }
-
 }
+export default ListHeader;

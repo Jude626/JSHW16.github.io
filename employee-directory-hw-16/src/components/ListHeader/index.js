@@ -66,7 +66,16 @@ class ListHeader extends React.Component {
 
                 { this.state.sortedEmployees.length > 0 &&
                   this.state.sortedEmployees.map((item, index) => (
-                    
+                    <Card
+                        image={item.picture.large}
+                        first={item.name.first}
+                        last={item.name.last}
+                        title={item.name.title}
+                        gender={item.gender}
+                        age={item.dob.age}
+                        phone={item.cell}
+                        email={item.email}
+                />
 
                   ))}
             </div>

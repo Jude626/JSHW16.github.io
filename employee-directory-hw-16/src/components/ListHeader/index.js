@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../Card";
+import "./style.css";
 
 class ListHeader extends React.Component {
     state = {

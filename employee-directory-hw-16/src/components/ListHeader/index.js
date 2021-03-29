@@ -46,8 +46,22 @@ class ListHeader extends React.Component {
                 return 0
             })
         }
-        this.setState
+        this.setState({
+            alphabetical: !this.state.alphabetical,
+            sortedEmployees: sortEmployees
+        })
     }
 
+    render() {
+        return (
+            <div>
+                <div className="header">
+                    <div>Profile Picture</div>
+                    <div><p onClick={this.sortName} className="name">Name</p></div>
+                    
+                </div>
+            </div>
+        )
+    }
 
 }

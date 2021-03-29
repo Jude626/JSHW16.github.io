@@ -16,3 +16,12 @@ class Navbar extends React.Component {
     }
 }
 
+handleInputChange = event => {
+    this.setState({
+        searchTerm: event.target.value
+    });
+    let userSearch = event.target.value;
+    const filteredList = this.props.employees.filter((item) => {
+        let values =
+    })
+}

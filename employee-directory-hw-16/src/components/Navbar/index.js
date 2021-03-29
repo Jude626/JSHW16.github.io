@@ -1,5 +1,6 @@
 import React from "react";
 import ListHeader from '../ListHeader';
+import "./style.css";
 
 class Navbar extends React.Component {
     state = {

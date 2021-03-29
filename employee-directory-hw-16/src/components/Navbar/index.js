@@ -14,7 +14,7 @@ class Navbar extends React.Component {
             })
         }
     }
-}
+
 
 handleInputChange = event => {
     this.setState({
@@ -30,7 +30,7 @@ handleInputChange = event => {
     });
 }
 
-render() {
+render(){
     return (
         <div>
             {}
@@ -48,3 +48,6 @@ render() {
         </div>
     );
 };
+}
+
+export default Navbar;

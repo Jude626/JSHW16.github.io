@@ -30,3 +30,19 @@ handleInputChange = event => {
     });
 }
 
+render() {
+    return (
+        <div>
+            {}
+            <form className="form">
+                <input
+                    value={this.state.searchTerm}
+                    name="searchTerm"
+                    onChange={event => this.handleInputChange(event)}
+                    type="text"
+                    placeholder="Search Employee"
+                />
+            </form>
+        </div>
+    )
+}

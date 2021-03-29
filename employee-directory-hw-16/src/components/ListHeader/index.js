@@ -58,8 +58,17 @@ class ListHeader extends React.Component {
                 <div className="header">
                     <div>Profile Picture</div>
                     <div><p onClick={this.sortName} className="name">Name</p></div>
-                    
+                    <div>Gender</div>
+                    <div>Age</div>
+                    <div>Phone</div>
+                    <div>Email</div>
                 </div>
+
+                { this.state.sortedEmployees.length > 0 &&
+                  this.state.sortedEmployees.map((item, index) => (
+                    
+
+                  ))}
             </div>
         )
     }

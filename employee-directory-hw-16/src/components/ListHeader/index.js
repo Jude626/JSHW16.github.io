@@ -17,7 +17,15 @@ class ListHeader extends React.Component {
         }
     }
 
-
+    componentDidUpdate(prevProps) {
+        if (this.props.employeeList !== prevProps.employeeList) {
+            this.setState({
+                sortedEmployees: this.props.employeeList
+            })
+        }
+    }
 
     
+
+
 }

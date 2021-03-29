@@ -1,0 +1,8 @@
+.card {
+    display: grid;
+    grid-template-columns: 20% 20% 10% 10% 20% 20%;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}

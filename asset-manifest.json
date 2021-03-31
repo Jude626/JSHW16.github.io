@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Jude626/JSHW16.github.io/static/css/main.749cd04e.chunk.css",
+    "main.js": "/Jude626/JSHW16.github.io/static/js/main.01fadc21.chunk.js",
+    "main.js.map": "/Jude626/JSHW16.github.io/static/js/main.01fadc21.chunk.js.map",
+    "runtime-main.js": "/Jude626/JSHW16.github.io/static/js/runtime-main.306264fb.js",
+    "runtime-main.js.map": "/Jude626/JSHW16.github.io/static/js/runtime-main.306264fb.js.map",
+    "static/js/2.f5fd6dbc.chunk.js": "/Jude626/JSHW16.github.io/static/js/2.f5fd6dbc.chunk.js",
+    "static/js/2.f5fd6dbc.chunk.js.map": "/Jude626/JSHW16.github.io/static/js/2.f5fd6dbc.chunk.js.map",
+    "static/js/3.32982ed2.chunk.js": "/Jude626/JSHW16.github.io/static/js/3.32982ed2.chunk.js",
+    "static/js/3.32982ed2.chunk.js.map": "/Jude626/JSHW16.github.io/static/js/3.32982ed2.chunk.js.map",
+    "index.html": "/Jude626/JSHW16.github.io/index.html",
+    "static/css/main.749cd04e.chunk.css.map": "/Jude626/JSHW16.github.io/static/css/main.749cd04e.chunk.css.map",
+    "static/js/2.f5fd6dbc.chunk.js.LICENSE.txt": "/Jude626/JSHW16.github.io/static/js/2.f5fd6dbc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.306264fb.js",
+    "static/js/2.f5fd6dbc.chunk.js",
+    "static/css/main.749cd04e.chunk.css",
+    "static/js/main.01fadc21.chunk.js"
+  ]
+}
